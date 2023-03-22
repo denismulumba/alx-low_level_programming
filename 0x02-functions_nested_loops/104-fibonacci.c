@@ -1,10 +1,12 @@
 #iclude <stdio.h>
 /**
  * main - prints fibonacci numbers
+ * Return: First 98 numbers in Fibonacci sequence
  */
-int main()
+int main(void)
 {
 	int n1 = 1, n2 = 2, n3, count = 2;
+
 	printf("%d, %d, ", n1, n2);
 
 	while (count < 98)
