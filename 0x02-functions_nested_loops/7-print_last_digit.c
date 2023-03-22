@@ -4,7 +4,7 @@
  *
  * @n: The integer number to get the last digit from
  *
- * Return: The value of the last digit
+ * Return: the value of the last digit
  */
 int print_last_digit(int n)
 {
@@ -19,5 +19,5 @@ int print_last_digit(int n)
 
 	_putchar('0' + l);
 
-	return l;
+	return (l);
 }
