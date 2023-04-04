@@ -9,6 +9,7 @@
 #include <stddef.h>
 
 char *_memset(char *s, char b, size_t n);
+char *_memcpy(char *dest, char *src, unsigned int n);
 
 
 
